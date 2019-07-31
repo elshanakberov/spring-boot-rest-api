@@ -1,10 +1,10 @@
-package com.ac.rest.api.dao;
+package com.ac.rest.api.service;
 
 import com.ac.rest.api.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     public List<Employee> findAll();
 
@@ -13,4 +13,5 @@ public interface EmployeeDAO {
     public void save(Employee theEmployee);
 
     public void deleteById(int theId);
+
 }
